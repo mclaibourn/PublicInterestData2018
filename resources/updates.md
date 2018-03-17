@@ -1,3 +1,21 @@
+## 2018-03-16
+* MC: emailed groups my understanding of an outline of their work; annotated research chapter; updated `prep_basedisp.R` to add proportions by race in DSS referral data, updated `analysis_basedisp.R` to improve figures, generate disproportionality in referral point estimates and intervals by year; added more structure to report document, and started adding a little bit of content.
+
+### Group 1
+
+* HS: This week I read and summarized my assigned article. I also did initial logit regressions comparing the chances of an investigation for white and non-white children. I ran into some issues making combined dummy variables, that will hopefully be worked out in class. My main issue is that multiracial children are classified often as black and white, so they could be counted twice. I need to figure out a way to address this. I also pulled poverty statistics by census tract for some initial judgements on poverty and investigation. 
+* NP: I read the assigned four articles carefully and made annotation that I thought could be useful to the project. I also tried to build models based on our discussion last class. Besides, through my readings, it seems considering changes in policies would make our analysis become too complex, since the changes could have different influence on different races.
+* MW: I read the required articles and am just about to read the additional one! Our group is working to split the tasks you suggested for us in the previous email. I am particularly going to start looking at the following this weekend: time to first contact.
+* MW: This week I summarized the krase 2015 article. I also worked on the referral dataset from last week, making the reporter relation variable into more general categories.
+
+### Group 2
+
+* BA: 1. Read two articles alloted to me and wrote a brief summary and how that fits into our analysis. A few questions popped up while doing so which migh be helpful in our analysis. 2. Cleaned the redundant code in the R file and upated it on github. Created a pull request to include the changes in the original file. 3. Created 3 types of race variables and created vizualizations for almost all the decison points. Have few questions on how to formulate the problem for few decision points.
+* AW: Read through the assigned articles and gained a better understanding of the different ways that researchers can measure disproportionality. I enjoyed reading the two reports from University of Illinois and Child Welfare of Minnesota. The methods used in UofI-Urbana Champaign was more applicable to our data set and more likely for us to implement, while the ones from the Minnesota report heavily relied on data that we do not have. For example, it needed family conditions and reporter type, and these are data that CVille's CPS do not have.
+* CM: This week I split my script into three parts (cleaning, analysis, and visualization) and got the data better organized and ready for analysis. Next week I want to dig more into the statistical models and make sure I really understand them. 
+* NP: This week I worked on the Hornstein article and summary, read the childmaltreatment article, and looked at the prep_basedisp code.
+* BE: I read and summarized the report, "Racial Disproportionality in Wisconsin's Child Welfare System" and posted my summary on Box ("bowman_etal_2009_summary_RGE."). I also updated my group's google doc page, just with our current charge and where we are, conglomerating messages between us, the lab's online pages, and the email from you last week. I peered into codes/scripts posted on Box, still trying to gain an understanding of R commands and keeping my own giant script updated with my notes. I am currently trying to *fully* understand piping. 
+
 ## 2018-03-02
 * MC: pulled together some articles -- from the research synthesis and a search in web of science of work since 2011 -- read abstracts, downloaded ones that seemed most relevant, skimmed to situate it within our work, and sent out summary info to lab; sent race coding instructions. Downoaded and wrangled ACS 5-year estimates to generate estimates of children by race in Cville, merged with summary data on referrals by race (see `prep_basedisp.R`) and started lookiing at data (see `analysis_basedisp.R`). Updated GitHub and webpages with agenda.
 
